@@ -88,3 +88,14 @@ body {
         margin: 3px;
     }
 }
+
+/* Rentang khusus untuk layar antara 320px dan 402px */
+@media (min-width: 320px) and (max-width: 402px) {
+    html {
+        font-size: 60%;
+    }
+    .simply-countdown > .simply-section {
+        padding: 35px;
+        margin: 2px;
+    }
+}
